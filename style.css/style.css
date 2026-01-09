@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* shared tag */
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;}
+
+  .btn{
+    background-color: #469165;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 16px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+
+
+
+
+  /* maine tag */
+  header {
+    margin: 16px 120px;
+  }
+  nav {
+    width: 86%;
+    
+    max-width: 1360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+  nav .logo {
+    width: 139px;
+
+  }
+    nav ul {
+        display: flex;
+        gap: 32px;
+        list-style: none;
+    }
+    nav ul li a {
+        text-decoration: none;
+        font-weight: medium;
+        font-size: 16px;
+        line-height: 152%;
+        color: black;
+        
+    }
+
+
