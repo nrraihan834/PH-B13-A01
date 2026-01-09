@@ -18,7 +18,21 @@
     font-weight: 600;
   }
 
+   nav {
+    width: 86%;
 
+    max-width: 1360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+section .banner {
+    width: 86%;
+    max-width: 1360px;
+    
+    
+}
 
 
 
@@ -26,15 +40,7 @@
   header {
     margin: 16px 120px;
   }
-  nav {
-    width: 86%;
-    
-    max-width: 1360px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-  }
+ 
   nav .logo {
     width: 139px;
 
@@ -50,7 +56,114 @@
         font-size: 16px;
         line-height: 152%;
         color: black;
-        
     }
+
+
+
+
+#banner {
+    background-image: url(../assets/hero-bg.png), linear-gradient(rgba(255, 255, 255, 1));
+    max-width: 1600px;
+    height: 674px;
+    flex-direction: column;
+    text-align: center;
+    padding: 70px 120px 134px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+div .early {
+    background-color: #FFFFFF;
+    display: flex;
+    margin: 0 auto;
+    border: none;
+    height: 35px;
+    width: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6;
+    padding: 8px 12px 8px 12px;
+    border-radius: 1000px;
+    background: rgba(255, 255, 255, 1);
+
+}
+
+.dot-early{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center
+    gap: 6px;
+    padding: 9px 2px 9px 12p
+}
+
+.dot-outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 16px;
+    width: 16px;
+    background-color: #46916572;
+    border-radius: 50%;
+}
+.dot-middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12px;
+    width: 12px;
+    background-color: #30b86988;
+    border-radius: 50%;
+
+}
+.dor-inner{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8px;
+    width: 8px;
+    background-color: #30b869da;
+    border-radius: 50%;
+}
+
+#banner .banner-container {
+    width: 1360px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+div .banner-text h1 {
+    
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    opacity: 0.9;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+div .highlight {
+    color: #30B868;
+
+}
+div .banner-text p{
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 16px 295px;
+}
+
+div .banner-button {
+    padding-top: 32px;
+    
+}
+
+
 
 
