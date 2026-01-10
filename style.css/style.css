@@ -95,8 +95,7 @@ div .early {
     display: inline-flex;
     align-items: center;
     justify-content: center
-    gap: 6px;
-    padding: 9px 2px 9px 12p
+    
 }
 
 .dot-outer{
@@ -207,6 +206,7 @@ div .banner-button {
     padding: 44px 120px;
     display: flex;
     gap: 24px;
+    
    }
 #learning  .info-card {
     text-align: center;
@@ -261,6 +261,53 @@ div .banner-button {
 
 
 
-.brain {
+#brain {
     margin: 120px 120px;
 }
+
+#brain .brain-img {
+    display: flex;
+}
+#brain .brain-container {
+
+    margin: 102px 0 102px 60px;
+}
+#brain .brain-container h6 {
+    font-size: 16px;
+    padding-bottom: 16px;
+    line-height: 20px;
+    color: #469165;
+}
+
+#brain .brain-container h1 {
+
+    font-size: 48px;
+    color: #001931;
+    padding-bottom: 16px;
+    
+
+}
+
+#brain .brain-container p {
+    max-width: 700px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    padding-bottom: 40px;
+}
+
+#brain .brain-container .check-mark {
+    width: 700px;
+    height: 60px;
+    display: flex;
+    align-items: flex-start;
+}
+
+#brain .brain-container .check-mark img {
+    width: 20px;
+    padding: 1.8px;
+    margin-top: 1px;
+
+}
+
+
